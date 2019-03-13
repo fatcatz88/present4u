@@ -1,0 +1,40 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] out) {
+    
+    int num = 3;
+    String a,b,c,d;
+    a = "you eat ass";
+    b = "you suck chodes";
+    c = "you love to sit on traffic cones";
+
+    while(true){
+     
+      System.out.println("Pick a word with 1-10 letters");
+
+      Scanner s = new Scanner(System.in);
+
+      d = s.nextLine();
+
+      int nameLen = d.length();
+      System.out.print("Hey drew, ");
+      
+      if(nameLen<=4){
+        System.out.println(a);
+      }else if(nameLen>4 && nameLen
+        <=6){
+        System.out.println(b);
+      }else if(6<nameLen){
+        System.out.println(c);
+      }else{
+        System.out.println("you are now my slave!\n");
+      }
+      System.out.println();
+    }
+
+
+
+    }
+}
